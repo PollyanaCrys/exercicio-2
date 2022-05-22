@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(71, 236, 236);
+}
+
+h2{
+    color: rgb(96, 154, 231);
+    float: left;
+    padding: 25px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#dentro{
+    background-color: white;
+    width: 700px;
+    height: 340px; 
+    padding: 5%;
+}
+
+#check{
+    float:left;
+}
+
+#flo{
+    float: right;
+    padding: 10px;
+}
+
+#user label{
+    display: inline-block;
+    text-align: left;
+    position:relative ;
+    top: 115px;  right: 440px;
+}
+
+#pass label{
+    display: inline-block;
+    text-align: left;
+    position:relative ;
+    top: 160px;  right: 440px;  
+}
+
+input[type=submit]{
+    background-color: rgb(81, 151, 241); 
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 40px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}   
+
+input[type=text] { 
+    width: 80%;
+    background-color: rgb(156, 156, 156);
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    float: left;
+    
+}
+
